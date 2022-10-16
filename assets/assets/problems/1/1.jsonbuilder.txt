@@ -1,0 +1,87 @@
+{
+  tasks: [
+      {          
+           id: '{{index()}}', // Уникальный номер задачи, НЕ менять
+           problem_id: 1, // Номер задачи
+           topic_id: 1, // Номер раздела
+           description: 'Треугольник ABC вписан в окружность с центром O. Найдите угол BOC, если угол BAC равен 32°.', // Описание задачи
+           image: null, // Путь к картинке, которая добавляется после content
+           solution: [
+             
+             {description:  [
+                       'Из теоремы о вписанном угле следует, что $\\angle BAC= \\frac{\\angle BOC}{2}\\Rightarrow\\angle BOC=2 \\cdot \\angle BAC=2 \\cdot 32^{\\circ}=64^{\\circ}$.'],
+                       image: 'sol1_1_1.svg'}
+
+                     ],
+           theme_indexes: [101],
+           answers: [ // Список ответов, примеры есть в самом низу
+            {value: 64}
+                   ],
+           source: 'Демонстрационная версия ЕГЭ—2023 по математике. Профильный уровень.' // Источник задачи
+         }]
+}
+
+/* КОНКАТЕНАЦИЯ СТРОК
+Если требуется записать несколько строк используй следующее выражение:
+description: [
+             'Line1',
+             'Line2',
+             'Line3'].join('\n')
+
+*/
+/* ПРИМЕРЫ ОТВЕТОВ
+
+// 1. ЧИСЛОВОЙ ОТВЕТ
+answers: [
+    {value: '\frac{\pi}{2}'}
+    ]
+        
+        
+answers: [
+    {value: -1}
+    ]
+        
+        
+// 2. СПИСОК КОРНЕЙ
+answers: [
+    {values: [0, -1, 1, '2{\pi}']}
+         ]
+         
+         
+// 3. СПИСОК ТРИГОНОМЕТРИЧЕСКИХ КОРНЕЙ
+answers: [
+  {trig_answers: ['{\\pi}{n}', '2{\\pi}{n}']}
+        ]   
+        
+        
+// 4. СПИСОК ПРОМЕЖУТКОВ (Если имеется дополнительная точка, записывается как отрезок [a,a])
+           answers: [{
+            ranges: [{
+                     firstPoint:{value: '-4', inclusive: true},
+                     secondPoint:{value: 0, inclusive: false}},
+                     {
+                     firstPoint:{value: '0', inclusive: false},
+                       secondPoint:{value: '\\sqrt_4{16}', inclusive: true}}
+                    ]
+                   }]
+            
+            
+// 5. БУЛЕВЫЙ ОТВЕТ
+answers: [
+         {bool_value: true}
+         ]
+         
+         
+// 6. ДОКАЗАТЕЛЬСТВО
+answers: [
+    proof: [1, 2] // Теоремы с индексами 1 и 2
+    ]
+        
+// 7. МНОЖЕСТВЕННЫЙ ОТВЕТ (на несколько пунктов)
+answers: [
+         {bool_value: true},
+          {bool_value: false},
+          proof: [1] // Теорема с индексом 1
+         ]
+
+*/
