@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "a686fff4ac4571481767ec1fd3c3b2f4",
+  "assets/AssetManifest.json": "19125976c84acae08ef83a9a79398eee",
 "assets/assets/fonts/Comfortaa/Comfortaa-Bold.ttf": "2df2dd0ee326686649aadb345e25c32c",
 "assets/assets/fonts/Comfortaa/Comfortaa-Light.ttf": "a32b6e45c316fd976351f29fedd25de8",
 "assets/assets/fonts/Comfortaa/Comfortaa-Medium.ttf": "cca5f204199167bb2048b1550d4bba8e",
@@ -13,6 +13,7 @@ const RESOURCES = {
 "assets/assets/fonts/Exo_2/Exo2-Italic.ttf": "c4751bb388a9d0d242eb25b4b802e3e2",
 "assets/assets/fonts/Exo_2/Exo2-Regular.ttf": "d1a552c4d4489fe0ed010009ef192da7",
 "assets/assets/fonts/Lobster/Lobster-Regular.ttf": "c3191f3b933ae0bd46335e178744326e",
+"assets/assets/rive_animations/basketball.riv": "eb582fe8f21bb790c0d4ed2a6fd8bae7",
 "assets/FontManifest.json": "c867fe35630a06df0404d3a548159d6d",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/NOTICES": "974e5f573a1e1b1400b5471cf9ceeea4",
@@ -48,9 +49,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "f1c4d99f49ee6e974a008d59c8d53753",
-"/": "f1c4d99f49ee6e974a008d59c8d53753",
-"main.dart.js": "8387ffd05517978a2b2e16b33315f857",
+"index.html": "f3cdc048955d2186f89ff51a6ea6afab",
+"/": "f3cdc048955d2186f89ff51a6ea6afab",
+"main.dart.js": "29db8a825b62ce2a229fb6335ea23b5d",
 "manifest.json": "d8ab3615a247bcda06d10bca7758623e",
 "version.json": "961016a61c6c5619bf50024030f7415b"
 };
